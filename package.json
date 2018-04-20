@@ -1,0 +1,27 @@
+{
+  "name": "imagepuller",
+  "version": "0.0.1",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-advanced-selectors": "^2.0.1",
+    "image-downloader": "^3.3.0",
+    "imagemin": "^5.3.1",
+    "imagemin-gm": "^2.0.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-mozjpeg": "^6.0.0",
+    "jimp": "^0.2.28",
+    "jpeg-js": "^0.3.3",
+    "readline-sync": "^1.4.9",
+    "sharp": "^0.20.1"
+  },
+  "description": "rip images from desired source",
+  "main": "index.js",
+  "scripts": {
+    "optimize": "node optimizer",
+    "scrape": "node index",
+    "test": "test"
+  },
+  "author": "antony",
+  "license": "ISC"
+}
